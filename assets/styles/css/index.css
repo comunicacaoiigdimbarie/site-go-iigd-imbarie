@@ -140,6 +140,97 @@ div#anotacoes div ion-icon:hover {
     transform: scale(1.1);
 }
 
+div#arquivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+div#arquivos div {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00000050;
+    max-height: 50px;
+    width: 425px;
+    max-width: 100%;
+}
+
+div#arquivos div p {
+    font-weight: bold;
+}
+
+div#arquivos div:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000000;
+    transform: scale(1.1);
+}
+
+div#arquivos div ion-icon:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00000050;
+    transform: scale(1.1);
+}
+
+div#arquivos div img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+div#emails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+div#emails div {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00000050;
+    max-height: 50px;
+    width: 425px;
+    max-width: 100%;
+}
+
+div#emails div p {
+    font-weight: bold;
+}
+
+div#emails div:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px #000000;
+    transform: scale(1.1);
+}
+
+div#emails div ion-icon:hover {
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00000050;
+    transform: scale(1.1);
+}
+
+div#emails div img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
 /* Mobile */
 @media (max-width: 600px) {
     div.mainheader {
@@ -148,7 +239,9 @@ div#anotacoes div ion-icon:hover {
     }
 
     div#redessociais div,
-    div#anotacoes div {
+    div#anotacoes div,
+    div#arquivos div,
+    div#emails div {
         min-width: 85%;
         max-width: 85%;
     }
@@ -156,7 +249,11 @@ div#anotacoes div ion-icon:hover {
     div#redessociais div:hover,
     div#redessociais div ion-icon:hover,
     div#anotacoes div:hover,
-    div#anotacoes div ion-icon:hover {
+    div#anotacoes div ion-icon:hover,
+    div#arquivos div,
+    div#anotacoes div ion-icon:hover,
+    div#emails div,
+    div#emails div ion-icon:hover {
         transform: none;
         box-shadow: none;
         border-radius: 5px;
