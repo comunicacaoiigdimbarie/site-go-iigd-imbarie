@@ -25,6 +25,7 @@ body {
 main {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex: 1;
     padding: 20px;
